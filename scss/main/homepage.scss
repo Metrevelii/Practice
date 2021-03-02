@@ -1,0 +1,29 @@
+body {
+    padding: 30px;
+}
+
+
+.carousel-features{
+    background-image: linear-gradient(to right, #922b2b, 
+    #420909);
+    height: 100vh;
+    clip-path: polygon(0 13vh, 100% 0, 100% 85vh, 0 100%); 
+}
+
+.section-features {
+    height: 95vh;
+    background-image: linear-gradient(to right, 
+    rgba(146, 43, 43, 0.705), 
+    rgba(66, 9, 9, 0.705)), 
+    url(../images/background-img.jpg);
+    background-size: cover;
+    background-position: top;
+
+
+    clip-path: polygon(0 13vh, 100% 0, 100% 85vh, 0 100%);   
+
+    @include respond(tab-port) {
+        padding: 10rem 0;
+    }
+
+}
