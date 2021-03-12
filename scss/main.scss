@@ -1,13 +1,12 @@
 @import './basic/reset.scss';
+@import './basic/grid.scss';
 
+@import './modules/classes.scss';
 @import './modules/mixins.scss';
 @import './modules/variables.scss';
-@import './modules/classes.scss';
 
-@import './layout/navigation.scss';
-@import './layout/header.scss';
-@import './components/buttons.scss';
-@import './main/carousel.scss';
-@import './main/homepage.scss';
+@import './components/button.scss';
+@import './components/carousel.scss';
+@import './components/composition.scss';
 
-@import './main/keyframes.scss';
+@import './pages/homepage.scss';
